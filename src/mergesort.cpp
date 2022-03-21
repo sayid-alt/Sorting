@@ -9,22 +9,23 @@ void printArray(int arr[], int n){
 
 void merge(int arr[], int low, int middle, int high){
 	int i, j, k;
-	int n1 = middle - low + 1;
-	int n2 = high - middle;
+	int n1 = middle - low + 1; // size of left array side
+	int n2 = high - middle; // size of right array side
 
-	int L[n1], R[n2];
+	int L[n1], R[n2]; // declare the left and right array
 
 	for (i = 0; i < n1; i++)
-		L[i] = arr[low + i];
+		L[i] = arr[low + i]; // copy left side array to the new declare array(L1)
 	
 	for (j = 0; j < n2; j++)
-		R[j] = arr[middle + 1 + j];
+		R[j] = arr[middle + 1 + j]; // copy right side array to the new declare array(R2)
 
-	i = 0; j = 0; k = low;
+	i = 0; j = 0; k = low; // redeclaring i,j, k
 
 	while(i < n1 && j < n2){
-		if (L[i] <= R[j]){
-			arr[k] = L[i]; 
+		// compare if the sequenze of element's L is less than R
+		if (L[i] <= R[j]){ 
+			arr[k] = L[i]; // 
 			i++;
 		} else{
 			arr[k] = R[j]; 
