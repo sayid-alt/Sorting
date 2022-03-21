@@ -25,7 +25,7 @@ void merge(int arr[], int low, int middle, int high){
 	while(i < n1 && j < n2){
 		// compare if the sequenze of element's L is less than R
 		if (L[i] <= R[j]){ 
-			arr[k] = L[i]; // 
+			arr[k] = L[i]; // insert the element into array
 			i++;
 		} else{
 			arr[k] = R[j]; 
@@ -34,6 +34,7 @@ void merge(int arr[], int low, int middle, int high){
 		k++;
 	}
 
+	// this code will running the remainder of the element not inserted yet.
 	while (i < n1){
 		arr[k] = L[i]; 
 		i++; k++;
