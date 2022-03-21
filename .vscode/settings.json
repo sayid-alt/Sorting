@@ -1,0 +1,24 @@
+{
+	"workbench.colorTheme": "GitHub Blue",
+	"editor.fontSize": 12.5,
+	"terminal.integrated.fontSize": 12.5,
+	"editor.minimap.enabled": false,
+	"workbench.iconTheme": "eq-material-theme-icons-light",
+	"window.zoomLevel": 0,
+	"editor.fontLigatures": true,
+	"terminal.integrated.fontWeight": "14",
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.padding.top": 10,
+	"editor.fontFamily": "MonoLisa",
+	"editor.cursorWidth": 3,
+	"editor.lineHeight": 1.8,
+	"terminal.integrated.lineHeight": 1.3,
+	"editor.tabSize": 3,
+	"terminal.integrated.fontFamily": "MonoLisa",
+	"C_Cpp.errorSquiggles": "Disabled",
+	"files.associations": {
+	  "ostream": "cpp"
+	},
+  }
+  
